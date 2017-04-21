@@ -1,4 +1,4 @@
-<h1>Login</h1>
+<h1>Signup!</h1>
 
 
 <%= form_tag sessions_path do %>
@@ -6,7 +6,5 @@
   <%= text_field_tag :username %>
   <%= label_tag :password %>
   <%= password_field_tag :password %>
-  <%= submit_tag 'Login' %>
+  <%= submit_tag 'Signup' %>
 <% end %>
-
-<p>New user? <%= link_to "Sign Up!", '/users/new' %></p>
